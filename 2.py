@@ -1,5 +1,5 @@
 class Telefon:
-    def __init__(self, quvvat=0):
+    def __init__(self, quvvat):
         self.__quvvat = max(0, min(100, quvvat))
 
     def quvvatni_korish(self):

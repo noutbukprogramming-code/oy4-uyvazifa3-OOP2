@@ -1,5 +1,5 @@
 class BankHisobi:
-    def __init__(self, boshlangich_balans=0):
+    def __init__(self, boshlangich_balans):
         self.__balans = boshlangich_balans
 
     def balansni_korish(self):

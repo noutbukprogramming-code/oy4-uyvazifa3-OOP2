@@ -1,5 +1,5 @@
 class Mahsulot:
-    def __init__(self, nom, miqdor=0):
+    def __init__(self, nom, miqdor):
         self.nom = nom
         self.__miqdor = miqdor
 
